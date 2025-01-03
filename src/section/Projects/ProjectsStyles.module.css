@@ -28,10 +28,14 @@
         display: flex;
         justify-content: center;
         text-align: center;
-         flex-direction: column;
+         
         gap: 30px;
         margin-left: 30px;
     }
+
+    
+
+
 
 @media  (width>=800px) {
     .projectsContainer{
@@ -42,3 +46,13 @@
     }
     
 }
+
+@media (width>=1400px){
+    .container{ 
+    .hero{
+       max-width: 400px;
+       width:400px ;
+    }
+ } 
+    
+ } 
